@@ -134,6 +134,12 @@ Die Installation wird in diesem Beispiel auf einem Debian 12 und eigener MySQL-S
 * Aus Root-Kontext raus\
 `exit`
 
+## Web-Zugriff
+* Webseite, wie in env.app.php konfiguriert, aufrufen.
+* Mit den Anmeldedaten, die per MySQL-Command angelegt wurden, anmelden
+
+## Nachricht per Bash-Console / -Script verschicken
+`php /opt/HermineBot/bin/console hermine:send-message -c <Hermine-Channel> -m "<Nachricht>"`
 
 ## Disclaimer
 Ich arbeite nicht für StashCat und habe auch ansonsten keinen Bezug zur `stashcat GmbH`. Es war ein Hobby-Projekt um die Funktionen für den im THW eingesetzten Stashcat-Brand "Hermine" zu erweitern.
